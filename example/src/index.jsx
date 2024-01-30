@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum asperiores fugit eius aspernatur libero! In harum repellendus cupiditate aperiam dolor qui reiciendis, repudiandae vero molestiae recusandae quas, totam, id voluptate!
     <App />
   </React.StrictMode>
 );
