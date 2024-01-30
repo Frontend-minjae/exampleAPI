@@ -1,17 +1,11 @@
 import React from 'react';
+import ApiWrapper from './Components/ApiWrapper';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum asperiores fugit eius aspernatur libero! In harum repellendus cupiditate aperiam dolor qui reiciendis, repudiandae vero molestiae recusandae quas, totam, id voluptate!
-    <App />
+    <ApiWrapper />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
